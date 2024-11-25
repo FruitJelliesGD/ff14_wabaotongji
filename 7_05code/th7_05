@@ -613,7 +613,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:竞技布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
+			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G17内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:发型样式：二分区}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:图拉尔古布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
