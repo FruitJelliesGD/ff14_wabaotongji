@@ -431,7 +431,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:惊奇补剂}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="32" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G15新内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
+              <Action OrderNumber="32" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G15内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:净洁布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:灼热的火角}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -441,7 +441,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:竞技布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17新内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
+			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:发型样式：二分区}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:图拉尔古布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
