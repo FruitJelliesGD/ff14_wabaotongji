@@ -385,41 +385,41 @@
               <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="竞技布" VariableExpression="${var:竞技布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			   <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="${var:发型样式：二分区} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			  <Action OrderNumber="23" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="${var:发型样式：二分区} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			   <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="${var:图拉尔古布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			   <Action OrderNumber="24" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="${var:图拉尔古布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			   <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="${var:辉鳞晶} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			   <Action OrderNumber="25" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="${var:辉鳞晶} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			   <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="${var:缎带阳伞} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			   <Action OrderNumber="26" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="${var:缎带阳伞} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			   <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="${var:暮光宝石} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			   <Action OrderNumber="27" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="${var:暮光宝石} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-              <Action OrderNumber="23" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G10内容：纳夏薄绢×${var:纳夏薄绢}， 绿图×${var:深层传送魔纹的地图}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G10内容" DescriptionOverride="True">
+              <Action OrderNumber="28" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G10内容：纳夏薄绢×${var:纳夏薄绢}， 绿图×${var:深层传送魔纹的地图}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G10内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:纳夏薄绢}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:深层传送魔纹的地图}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="24" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G12内容：附魔木×${var:附魔榆木木材}， 小牛皮×${var:小牛皮}， 前沿×${var:前沿布料}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G12内容" DescriptionOverride="True">
+              <Action OrderNumber="29" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G12内容：附魔木×${var:附魔榆木木材}， 小牛皮×${var:小牛皮}， 前沿×${var:前沿布料}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G12内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:附魔榆木木材}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:小牛皮}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:前沿布料}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="25" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G12极稀有内容：古菩灯×${var:古菩台灯}， 河狸×${var:黄金大河狸}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G12极稀有内容" DescriptionOverride="True">
+              <Action OrderNumber="30" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G12极稀有内容：古菩灯×${var:古菩台灯}， 河狸×${var:黄金大河狸}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G12极稀有内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:古菩台灯}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:黄金大河狸}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="26" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G14的内容：开心布×${var:开心布}， 大天使×${var:大天使之翼}， 仙子族×${var:仙子族之翼}， 白伞×${var:白色花边阳伞}， 羽毛×${var:绚烂华丽的羽毛}， 惊奇纤维×${var:惊奇纤维}，惊奇革×${var:惊奇革}，惊奇补剂×${var:惊奇补剂}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G14内容" DescriptionOverride="True">
+              <Action OrderNumber="31" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G14的内容：开心布×${var:开心布}， 大天使×${var:大天使之翼}， 仙子族×${var:仙子族之翼}， 白伞×${var:白色花边阳伞}， 羽毛×${var:绚烂华丽的羽毛}， 惊奇纤维×${var:惊奇纤维}，惊奇革×${var:惊奇革}，惊奇补剂×${var:惊奇补剂}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G14内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:开心布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:大天使之翼}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -431,7 +431,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:惊奇补剂}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="27" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G15新内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
+              <Action OrderNumber="32" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G15新内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:净洁布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:灼热的火角}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -441,7 +441,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:竞技布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-			  <Action OrderNumber="28" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17新内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
+			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17新内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:发型样式：二分区}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:图拉尔古布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -450,12 +450,12 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:暮光宝石}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="29" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落绿图内容：金鲶×${var:金鲶}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="绿图内容" DescriptionOverride="True">
+              <Action OrderNumber="34" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落绿图内容：金鲶×${var:金鲶}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="绿图内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:金鲶}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="30" NamedCallbackName="command" NamedCallbackParam="/e 似乎还没有值钱的掉落物…" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="无掉落" DescriptionOverride="True">
+              <Action OrderNumber="35" NamedCallbackName="command" NamedCallbackParam="/e 似乎还没有值钱的掉落物…" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="无掉落" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${var:金鲶}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:小牛皮}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
@@ -557,41 +557,41 @@
               <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="竞技布" VariableExpression="${var:竞技布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-              <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="${var:发型样式：二分区} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+              <Action OrderNumber="23" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="${var:发型样式：二分区} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="${var:图拉尔古布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			  <Action OrderNumber="24" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="${var:图拉尔古布} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="${var:辉鳞晶} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			  <Action OrderNumber="25" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="${var:辉鳞晶} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="${var:缎带阳伞} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			  <Action OrderNumber="26" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="${var:缎带阳伞} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="22" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="${var:暮光宝石} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+			  <Action OrderNumber="27" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="${var:暮光宝石} + 0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-              <Action OrderNumber="23" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G10内容：纳夏薄绢×${var:纳夏薄绢}， 绿图×${var:深层传送魔纹的地图}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G10内容" DescriptionOverride="True">
+              <Action OrderNumber="28" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G10内容：纳夏薄绢×${var:纳夏薄绢}， 绿图×${var:深层传送魔纹的地图}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G10内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:纳夏薄绢}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:深层传送魔纹的地图}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="24" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G12内容：附魔木×${var:附魔榆木木材}， 小牛皮×${var:小牛皮}， 前沿×${var:前沿布料}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G12内容" DescriptionOverride="True">
+              <Action OrderNumber="29" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G12内容：附魔木×${var:附魔榆木木材}， 小牛皮×${var:小牛皮}， 前沿×${var:前沿布料}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G12内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:附魔榆木木材}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:小牛皮}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:前沿布料}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="25" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G12极稀有内容：古菩灯×${var:古菩台灯}， 河狸×${var:黄金大河狸}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G12极稀有内容" DescriptionOverride="True">
+              <Action OrderNumber="30" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G12极稀有内容：古菩灯×${var:古菩台灯}， 河狸×${var:黄金大河狸}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G12极稀有内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:古菩台灯}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:黄金大河狸}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="26" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G14内容：开心布×${var:开心布}， 大天使×${var:大天使之翼}， 仙子族×${var:仙子族之翼}， 白伞×${var:白色花边阳伞}， 羽毛×${var:绚烂华丽的羽毛}， 惊奇纤维×${var:惊奇纤维}，惊奇革×${var:惊奇革}，惊奇补剂×${var:惊奇补剂}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G14内容" DescriptionOverride="True">
+              <Action OrderNumber="31" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G14内容：开心布×${var:开心布}， 大天使×${var:大天使之翼}， 仙子族×${var:仙子族之翼}， 白伞×${var:白色花边阳伞}， 羽毛×${var:绚烂华丽的羽毛}， 惊奇纤维×${var:惊奇纤维}，惊奇革×${var:惊奇革}，惊奇补剂×${var:惊奇补剂}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="G14内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:开心布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:大天使之翼}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -603,7 +603,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:惊奇补剂}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="27" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G15内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
+              <Action OrderNumber="32" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落G15内容：净洁布×${var:净洁布}，灼热的火角×${var:灼热的火角}，迷你艾多纽斯×${var:迷你艾多纽斯}，迷你好友×${var:迷你好友}，轻柔棉布×${var:轻柔棉布}，竞技布×${var:竞技布}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:净洁布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:灼热的火角}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -613,7 +613,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:竞技布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-			  <Action OrderNumber="28" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17新内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G15内容" DescriptionOverride="True">
+			  <Action OrderNumber="33" NamedCallbackName="command" NamedCallbackParam="/e 本次掉落G17内容：发型样式：二分区×${var:发型样式：二分区}，图拉尔古布×${var:图拉尔古布}，辉鳞晶×${var:辉鳞晶}，缎带阳伞×${var:缎带阳伞}，暮光宝石×${var:暮光宝石}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="10" Description="G17内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:发型样式：二分区}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:图拉尔古布}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -622,12 +622,12 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:暮光宝石}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="29" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落绿图内容：金鲶×${var:金鲶}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="绿图内容" DescriptionOverride="True">
+              <Action OrderNumber="34" NamedCallbackName="command" NamedCallbackParam="/p 本次掉落绿图内容：金鲶×${var:金鲶}。" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="绿图内容" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${var:金鲶}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="NumericGreater" />
                 </Condition>
               </Action>
-              <Action OrderNumber="30" NamedCallbackName="command" NamedCallbackParam="/p 似乎还没有值钱的掉落物…" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="无掉落" DescriptionOverride="True">
+              <Action OrderNumber="35" NamedCallbackName="command" NamedCallbackParam="/p 似乎还没有值钱的掉落物…" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="NamedCallback" ExecutionDelayExpression="40" Description="无掉落" DescriptionOverride="True">
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${var:金鲶}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                   <ConditionSingle Enabled="true" ExpressionL="${var:小牛皮}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
@@ -796,31 +796,31 @@
               <Action OrderNumber="44" VariableOp="SetNumeric" VariableName="${_ffxivplayer}竞技布" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="45" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+		<Action OrderNumber="45" VariableOp="SetNumeric" VariableName="发型样式：二分区" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
               <Action OrderNumber="46" VariableOp="SetNumeric" VariableName="${_ffxivplayer}发型样式：二分区" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="47" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+		<Action OrderNumber="47" VariableOp="SetNumeric" VariableName="图拉尔古布" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
               <Action OrderNumber="48" VariableOp="SetNumeric" VariableName="${_ffxivplayer}图拉尔古布" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="49" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+		<Action OrderNumber="49" VariableOp="SetNumeric" VariableName="辉鳞晶" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
               <Action OrderNumber="50" VariableOp="SetNumeric" VariableName="${_ffxivplayer}辉鳞晶" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="51" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+		<Action OrderNumber="51" VariableOp="SetNumeric" VariableName="缎带阳伞" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
               <Action OrderNumber="52" VariableOp="SetNumeric" VariableName="${_ffxivplayer}缎带阳伞" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
-			  <Action OrderNumber="53" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+		<Action OrderNumber="53" VariableOp="SetNumeric" VariableName="暮光宝石" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
               <Action OrderNumber="54" VariableOp="SetNumeric" VariableName="${_ffxivplayer}暮光宝石" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
