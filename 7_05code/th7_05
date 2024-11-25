@@ -657,7 +657,6 @@
 				  <ConditionSingle Enabled="true" ExpressionL="${var:缎带阳伞}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
 				  <ConditionSingle Enabled="true" ExpressionL="${var:暮光宝石}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
-                </Condition>
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
